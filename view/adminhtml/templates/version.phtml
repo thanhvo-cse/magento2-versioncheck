@@ -1,0 +1,6 @@
+<?php /** @var \ThanhVo\VersionCheck\Block\Adminhtml\Version $block */ ?>
+<?php if ($block->shouldDisplay()): ?>
+    <?= ' Version: ' . $block->getVersion() ?>
+    <br>
+    <?= ' IP: ' . $block->getServerIp() ?>
+<?php endif; ?>

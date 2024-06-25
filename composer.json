@@ -1,0 +1,25 @@
+{
+    "name": "thanhvo-cse/magento2-versioncheck",
+    "description": "Magento extension to display version and IP for CI/CD",
+    "type": "magento2-module",
+    "license": "MIT",
+    "keywords": [
+        "ci/cd", "version", "ip", "magento"
+    ],
+    "authors": [
+        {
+            "email": "thanhvo.cse@gmail.com",
+            "name": "Thanh Vo"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ThanhVo\\VersionCheck\\": ""
+        }
+    }
+}
