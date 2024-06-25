@@ -4,7 +4,7 @@
     "type": "magento2-module",
     "license": "MIT",
     "keywords": [
-        "ci/cd", "version", "ip", "magento"
+        "ci cd", "version", "ip", "magento"
     ],
     "authors": [
         {
